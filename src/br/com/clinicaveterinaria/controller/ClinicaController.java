@@ -41,7 +41,6 @@ public class ClinicaController {
 
 	public void atualizarProprietario(String cpf, String nome, String telefone, String endereco, String email) {
 		Proprietario proprietario = new Proprietario(cpf, nome, telefone, endereco, email);
-
 		proprietarioDAO.atualizar(proprietario);
 	}
 
